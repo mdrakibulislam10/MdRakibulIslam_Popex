@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <section className="md:text-center mx-1">
+        <section className="md:text-center">
             <h1 className="text-3xl md:text-5xl font-bold">
                 <span className="text-[#1ea4e9]">D</span>ECENTRALIZED <span className="text-[#1ea4e9]">OP</span>TIONS <span className="text-[#1ea4e9]">EX</span>CHANGE
             </h1>
