@@ -1,16 +1,19 @@
+import { Link } from "react-router-dom";
 import logo from "../../../assets/logo.png";
 
 const Footer = () => {
     return (
-        <footer className="footer p-10 mt-32">
+        <footer className="footer p-10 mt-24">
             <div className="lg:mx-auto">
-                <img src={logo} className="w-16" alt="" />
+                <Link to={"/"}>
+                    <img src={logo} className="w-16" alt="" />
+                </Link>
                 <p className="mt-2 text-[#657aa4] text-lg">&copy; 2023 Popex</p>
             </div>
             <div className="lg:mx-auto">
                 <span className="text-xl text-black font-semibold">Product</span>
                 <div className="text-[#657aa4] text-lg flex flex-col">
-                    <a href="https://www.dopex.io/frontends" rel="noreferrer" target="_blank" className="link link-hover">Use Dopex</a>
+                    <a href="https://www.dopex.io/frontends" rel="noreferrer" target="_blank" className="link link-hover">Use Popex</a>
                 </div>
             </div>
             <div className="lg:mx-auto">
@@ -18,7 +21,7 @@ const Footer = () => {
                 <div className="text-[#657aa4] text-lg flex flex-col">
                     <a className="link link-hover" rel="noreferrer" target="_blank" href="https://docs.dopex.io/">Documentation</a>
                     <a className="link link-hover" rel="noreferrer" target="_blank" href="https://blog.dopex.io/">Blog</a>
-                    <a className="link link-hover" rel="noreferrer" target="_blank" href="https://dopex.notion.site/The-Dopex-Knowledge-Base-6a8e6b6cb2d84db3b5ea5824553c7c7b">Marketing</a>
+                    <a className="link link-hover" rel="noreferrer" target="_blank" href="https://dopex.notion.site/The-Dopex-Knowledge-Base-6a8e6b6cb2d84db3b5ea5824553c7c7b">Knowledge Base</a>
                 </div>
             </div>
 

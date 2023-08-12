@@ -8,7 +8,7 @@ const Synergy = () => {
             <div className="space-y-3 text-center lg:text-start">
                 <h2 className="text-blue-600 text-xl font-semibold mt-10">SYNERGY</h2>
                 <h1 className="text-3xl md:text-4xl font-bold">DUAL TOKEN MODEL</h1>
-                <p className="text-[#657aa4] text-lg">Dopex utilizes two separate tokens to coordinate new ecosystem dynamics in a synergistic feedback loop.</p>
+                <p className="text-[#657aa4] text-lg">Popex utilizes two separate tokens to coordinate new ecosystem dynamics in a synergistic feedback loop.</p>
 
                 <div className="flex justify-center lg:justify-start">
                     <a href="https://docs.dopex.io/tokenomics/token-distribution" target="_blank" rel="noreferrer" className="">
