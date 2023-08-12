@@ -1,6 +1,6 @@
-import wave from "../../../assets/wave.png";
-import world from "../../../assets/world.png";
-import plate from "../../../assets/plate.png";
+import wave from "../../../assets/wave.webp";
+import world from "../../../assets/world.webp";
+import plate from "../../../assets/plate.webp";
 
 const About = () => {
     return (

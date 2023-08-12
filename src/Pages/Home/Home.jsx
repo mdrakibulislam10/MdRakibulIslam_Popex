@@ -1,5 +1,6 @@
 import About from "./About/About";
 import Banner from "./Banner/Banner";
+import BuiltDifferent from "./BuiltDifferent/BuiltDifferent";
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
 
             <About />
 
-
+            <BuiltDifferent />
         </section>
     );
 };
