@@ -5,14 +5,16 @@ import rDpxImg from "../../../assets/rrr.webp";
 const Synergy = () => {
     return (
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-32">
-            <div className="space-y-3">
+            <div className="space-y-3 text-center lg:text-start">
                 <h2 className="text-blue-600 text-xl font-semibold mt-10">SYNERGY</h2>
                 <h1 className="text-3xl md:text-4xl font-bold">DUAL TOKEN MODEL</h1>
                 <p className="text-[#657aa4] text-lg">Dopex utilizes two separate tokens to coordinate new ecosystem dynamics in a synergistic feedback loop.</p>
 
-                <a href="https://docs.dopex.io/tokenomics/token-distribution">
-                    <button className="font-semibold text-lg md:text-xl text-blue-600 flex items-center gap-2">Tokenomics <span className="mt-1"><FaArrowRight /></span></button>
-                </a>
+                <div className="flex justify-center lg:justify-start">
+                    <a href="https://docs.dopex.io/tokenomics/token-distribution" target="_blank" rel="noreferrer" className="">
+                        <button className="font-semibold text-lg md:text-xl text-blue-600 flex items-center gap-2">Tokenomics <span className="mt-1"><FaArrowRight /></span></button>
+                    </a>
+                </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
