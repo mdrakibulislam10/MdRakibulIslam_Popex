@@ -1,6 +1,7 @@
 import About from "./About/About";
 import Banner from "./Banner/Banner";
 import BuiltDifferent from "./BuiltDifferent/BuiltDifferent";
+import InvestorsPartners from "./InvestorsPartners/InvestorsPartners";
 
 const Home = () => {
     return (
@@ -10,6 +11,8 @@ const Home = () => {
             <About />
 
             <BuiltDifferent />
+
+            <InvestorsPartners />
         </section>
     );
 };
